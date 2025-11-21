@@ -46,6 +46,6 @@ Found a bug or have suggestions? Please open an issue on GitHub!
 
 ## License
 
-None
+MIT License
 
 Go Vandals! 💛🖤
