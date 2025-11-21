@@ -1,0 +1,46 @@
+{
+  "name": "university-of-idaho-theme",
+  "displayName": "University of Idaho Theme",
+  "description": "A color theme inspired by the University of Idaho's iconic Black and Gold colors",
+  "version": "1.0.0",
+  "publisher": "JusticeAmenyoKessie",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "university-of-idaho",
+    "black",
+    "gold"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "University of Idaho — Black & Gold",
+        "uiTheme": "vs-dark",
+        "path": "./themes/university-of-idaho-dark.json"
+      },
+      {
+        "label": "University of Idaho — Dual Gold/White/Black",
+        "uiTheme": "vs",
+        "path": "./themes/university-of-idaho-light.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justicekessie/university-of-idaho-theme.git"
+  },
+  "homepage": "https://github.com/justicekessie/university-of-idaho-theme/blob/main/README.md",
+  "bugs": {
+    "url": "https://github.com/justicekessie/university-of-idaho-theme/issues"
+  },
+  "galleryBanner": {
+    "color": "#000000",
+    "theme": "dark"
+  }
+}

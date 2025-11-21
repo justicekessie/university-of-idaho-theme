@@ -1,0 +1,89 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "University of Idaho — Dual Gold/White/Black",
+  "type": "light",
+  "colors": {
+    "editor.background": "#FFFFFF",
+    "editor.foreground": "#000000",
+    "editorCursor.foreground": "#FFCC00",
+    "editor.lineHighlightBackground": "#FFF7D6",
+    "editorLineNumber.foreground": "#999999",
+    "editorLineNumber.activeForeground": "#FFCC00",
+    "editor.selectionBackground": "#FFCC0044",
+    "editor.inactiveSelectionBackground": "#FFCC0022",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FFCC00",
+    "activityBarBadge.background": "#FFCC00",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#F5F5F5",
+    "sideBar.foreground": "#000000",
+    "sideBarSectionHeader.background": "#E6E6E6",
+    "sideBarSectionHeader.foreground": "#000000",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FFCC00",
+    "tab.activeBackground": "#FFFFFF",
+    "tab.activeForeground": "#000000",
+    "tab.border": "#E6E6E6",
+    "tab.inactiveBackground": "#F5F5F5",
+    "tab.inactiveForeground": "#555555",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#FFCC00",
+    "terminal.background": "#FFFFFF",
+    "terminal.foreground": "#000000",
+    "terminalCursor.foreground": "#FFCC00",
+    "focusBorder": "#FFCC00",
+    "button.background": "#FFCC00",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#E6B800",
+    "editorWidget.background": "#F5F5F5",
+    "editorWidget.foreground": "#000000",
+    "input.background": "#FFFFFF",
+    "input.foreground": "#000000",
+    "dropdown.background": "#FFFFFF",
+    "dropdown.foreground": "#000000",
+    "panel.background": "#FFFFFF",
+    "panel.border": "#E6E6E6",
+    "panelTitle.activeForeground": "#000000",
+    "panelTitle.inactiveForeground": "#777777",
+    "scrollbarSlider.background": "#00000022",
+    "scrollbarSlider.hoverBackground": "#00000044"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#777777", "fontStyle": "italic" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#B58900" }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#CC8800", "fontStyle": "bold" }
+    },
+    {
+      "scope": [
+        "variable",
+        "variable.parameter",
+        "meta.definition.variable"
+      ],
+      "settings": { "foreground": "#000000" }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": { "foreground": "#996600" }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": { "foreground": "#CC9900" }
+    },
+    {
+      "scope": "storage.type",
+      "settings": { "foreground": "#CC8800" }
+    },
+    {
+      "scope": "entity.name.type",
+      "settings": { "foreground": "#333333", "fontStyle": "bold" }
+    }
+  ]
+}

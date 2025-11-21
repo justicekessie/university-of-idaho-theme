@@ -1,0 +1,71 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "University of Idaho — Black & Gold",
+  "type": "dark",
+  "colors": {
+    "editor.background": "#000000",
+    "editor.foreground": "#FFCC00",
+    "editorCursor.foreground": "#FFCC00",
+    "editor.lineHighlightBackground": "#1a1a1a",
+    "editorLineNumber.foreground": "#666666",
+    "editorLineNumber.activeForeground": "#FFCC00",
+    "editor.selectionBackground": "#FFCC0044",
+    "editor.inactiveSelectionBackground": "#FFCC0022",
+    "activityBar.background": "#000000",
+    "activityBar.foreground": "#FFCC00",
+    "activityBarBadge.background": "#FFCC00",
+    "activityBarBadge.foreground": "#000000",
+    "sideBar.background": "#0d0d0d",
+    "sideBar.foreground": "#f0f0f0",
+    "sideBarSectionHeader.background": "#1a1a1a",
+    "statusBar.background": "#000000",
+    "statusBar.foreground": "#FFCC00",
+    "tab.activeBackground": "#000000",
+    "tab.activeForeground": "#FFCC00",
+    "tab.inactiveBackground": "#1a1a1a",
+    "tab.inactiveForeground": "#888888",
+    "titleBar.activeBackground": "#000000",
+    "titleBar.activeForeground": "#FFCC00",
+    "terminal.background": "#000000",
+    "terminal.foreground": "#FFCC00",
+    "terminalCursor.foreground": "#FFCC00",
+    "focusBorder": "#FFCC00",
+    "button.background": "#FFCC00",
+    "button.foreground": "#000000",
+    "button.hoverBackground": "#e6b800",
+    "editorWidget.background": "#1a1a1a",
+    "input.background": "#0d0d0d",
+    "input.foreground": "#FFCC00",
+    "dropdown.background": "#1a1a1a"
+  },
+  "tokenColors": [
+    {
+      "scope": "comment",
+      "settings": { "foreground": "#999999" }
+    },
+    {
+      "scope": "string",
+      "settings": { "foreground": "#FFCC00" }
+    },
+    {
+      "scope": "keyword",
+      "settings": { "foreground": "#e6b800", "fontStyle": "bold" }
+    },
+    {
+      "scope": "variable",
+      "settings": { "foreground": "#f2f2f2" }
+    },
+    {
+      "scope": "constant.numeric",
+      "settings": { "foreground": "#FFCC66" }
+    },
+    {
+      "scope": "entity.name.function",
+      "settings": { "foreground": "#FFDD33" }
+    },
+    {
+      "scope": "storage.type",
+      "settings": { "foreground": "#e6b800" }
+    }
+  ]
+}
