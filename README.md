@@ -1,51 +1,68 @@
 # University of Idaho Theme
 
-A vibrant VS Code color theme inspired by the University of Idaho's iconic Black and Gold colors.
+University of Idaho-inspired dark and light color themes for **Positron** and **Visual Studio Code**. Bring black-and-gold accents to your editor, terminal, and syntax highlighting.
 
-## Features
+## Included themes
 
-This extension includes two carefully designed color themes:
+| Theme | Appearance |
+| --- | --- |
+| University of Idaho — Black & Gold | Dark background with gold accents and syntax highlighting. |
+| University of Idaho — Dual Gold/White/Black | White editor background with dark text and gold accents. |
 
-**University of Idaho — Black & Gold** (Dark Theme) - Pure black background with striking gold accents - Perfect for night-time coding sessions - High contrast for optimal readability - University of Idaho pride in every line
+## Install in Positron
 
-**University of Idaho — Dual Gold/White/Black** (Light Theme) - Clean white background with black text - Gold highlights for keywords and selections - Ideal for daytime use or presentations - Maintains the university's color scheme
+1. Open the **Extensions** view and search for **University of Idaho Theme**.
+2. If the extension is available in your configured registry, select **Install**.
+3. Otherwise, obtain a `.vsix` package from this repository or build one locally. Open the Command Palette, run **Extensions: Install from VSIX...**, and select the package.
+4. Run **Preferences: Color Theme** and choose one of the two theme names above.
 
-## Installation
+Installing a VSIX makes the extension available locally; it does not publish the extension to Positron’s registry. Positron-specific panes may inherit default colors where this theme has no explicit styling.
 
-1.  Open VS Code
-2.  Go to the Extensions view (Ctrl+Shift+X / Cmd+Shift+X)
-3.  Search for "University of Idaho Theme"
-4.  Click Install
+## Install in Visual Studio Code
 
-## Usage
+Open the **Extensions** view, search for **University of Idaho Theme**, and select **Install**. You can also use **Extensions: Install from VSIX...** to install a local package.
 
-1.  Open the Command Palette (Ctrl+Shift+P / Cmd+Shift+P)
-2.  Type "Color Theme" and select "Preferences: Color Theme"
-3.  Choose either:
-    -   **University of Idaho — Black & Gold** for dark mode
-    -   **University of Idaho — Dual Gold/White/Black** for light mode
+Run **Preferences: Color Theme** from the Command Palette to switch between the dark and light variants.
 
-## Colors
+## Color direction
 
--   **Primary Gold**: #FFCC00
--   **Secondary Gold**: #e6b800
--   **Primary Black**: #000000
--   **Accent Gold**: #FFDD33
+The confirmed palette for the next color refresh is:
 
-## Customization
+| Color | Hex |
+| --- | --- |
+| Gold | `#F1B300` |
+| Gray | `#808080` |
+| Charcoal | `#191919` |
+| White | `#FFFFFF` |
 
-You can customize these themes further by editing the JSON files in your VS Code settings:
+Brand reference: [University of Idaho brand guide](https://www.uidaho.edu/brand).
 
-1.  Go to Settings (Ctrl+, / Cmd+,)
-2.  Search for "workbench.colorCustomizations"
-3.  Adjust colors as needed
+The current theme files still use the original palette, including `#FFCC00` gold and `#000000` black. The palette above describes the planned refresh, not a completed change in this documentation release. A metallic gold value has not been confirmed.
 
-## Feedback & Issues
+## Customize
 
-Found a bug or have suggestions? Please open an issue on GitHub!
+In Positron or VS Code, open **Preferences: Open User Settings (JSON)** and add overrides such as:
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "[University of Idaho — Black & Gold]": {
+      "editor.background": "#191919",
+      "editorCursor.foreground": "#F1B300",
+      "focusBorder": "#F1B300"
+    }
+  }
+}
+```
+
+Use `editor.tokenColorCustomizations` to adjust syntax highlighting separately.
+
+## Feedback
+
+[Report an issue or request an improvement](https://github.com/justicekessie/university-of-idaho-theme/issues). For color or readability issues, include your editor version, selected theme, language, and a screenshot without private information.
 
 ## License
 
-MIT License
+[MIT](LICENSE). This project is inspired by the University of Idaho; it does not claim university endorsement.
 
-Go Vandals! 💛🖤
+Go Vandals!
