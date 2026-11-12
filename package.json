@@ -2,7 +2,7 @@
   "name": "university-of-idaho-theme",
   "displayName": "University of Idaho Theme",
   "description": "University of Idaho-inspired dark and light color themes for Positron and Visual Studio Code.",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "publisher": "JusticeAmenyoKessie",
   "engines": {
     "vscode": "^1.60.0"
@@ -16,7 +16,10 @@
     "positron",
     "university-of-idaho",
     "black",
-    "gold"
+    "gold",
+    "python",
+    "r",
+    "notebook"
   ],
   "contributes": {
     "themes": [
@@ -43,5 +46,9 @@
   "galleryBanner": {
     "color": "#191919",
     "theme": "dark"
+  },
+  "icon": "assets/icon.png",
+  "scripts": {
+    "test": "node scripts/validate.mjs"
   }
 }
